@@ -1,0 +1,114 @@
+ body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+ } 
+
+ .container1 {
+    display: flex;
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+ }
+
+ .container2 {
+    display: flex;
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    flex-direction: column;
+ }
+
+ .container3 {
+    display: flex;
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+ }
+
+ .container4 {
+    display: flex;
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    justify-content: space-around;
+ }
+
+ .container5 {
+    display: flex;
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+ }
+
+ .container6 {
+    display: flex;
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+ }
+
+ .container7 {
+    display: flex;
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    flex-wrap: wrap-reverse;
+ }
+
+ .container8 {
+    display: flex;
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+ }
+
+  .flex1 {
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+ .flex2{
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+ }
+
+ .flex3 {
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+ }
+
+ .flex4 {
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+ }
